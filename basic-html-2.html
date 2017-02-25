@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+<meta content="text/html" charset="UTF-8" />
+<style type="text/css">
+	body{
+		backgound-color: #999;
+	}
+	div{
+		border-style: 1px #ccc solid;
+		box-shadow: 2px 2px 2px #333;
+	}
+	h2, .author{
+		color: #666;
+	}
+	img{
+		border-style: 1px #999 dotted;
+	}
+	th{
+		background-color:#222;
+		color:#FFF;
+	}
+	#sum{
+		background-color:#999;
+	}
+	.tables{
+		display:table;
+		margin:0 auto;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<h1>This is a title.</h1>
+		<ul>
+			<li><a href="http://www.baidu.com" targrt="_blank">baidu.com</a></li>
+			<li><a href="http://www.163.com">163.com</a></li>
+		</ul>
+		<h2>title2</h2>
+		<p name="author">author</p>
+		<p>this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.<br />this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.<a href="http://www.baidu.com">baidu.com</a>.<em>we are the champion my friends~</em><strong>this is a very very long paragaph.</strong>this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.</p>
+	</div>
+	<div>
+		<img src="http://wx1.sinaimg.cn/mw690/67ba1d45ly1fd2r1hf1l0j20m80m87ex.jpg" alt="a picture" />
+		<ol>
+			<li>no.1</li>
+			<li>no.2</li>
+			<li>no.3</li>
+		</ol>
+	</div>
+	<div>
+		<h3>title3</h3>
+		<table border="1">
+			<tr>
+				<th>Heading</th>
+				<th>Heading2</th>
+			</tr>
+			<tr>
+				<td>123</td>
+				<td>321</td>
+			</tr>
+			<tr>
+				<td>345</td>
+				<td>543</td>
+			</tr>
+			<tr id="sum">
+				<td>&nbsp;</td>
+				<td>786</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<form method="post" name="tables">
+			<label for="username">username is:</label>
+			<input type="text" name="username" />
+			<label for="password">password:</label>
+			<input type="password" name="password" />
+		</form>
+		<form name="tables">
+			<label>city</label>
+			<select>
+				<option value="beijing">beijing</option>
+				<option value="shanghai">shanghai</option>
+				<option value="guangzhou">guangzhou</option>
+			</select>
+			<br />choose it!<br />
+				<label><input name="female" type="radio" checked="checked" />female</label>
+				<label><input name="male" type="radio" />male</label>
+			<br />weekend is coming<br />
+				<label><input name="coffee" type="checkbox" />coffee</label>
+				<label><input name="cola" type="checkbox" />cola</label>
+				<label><input name="milk" type="checkbox" />milk</label>
+			<br />apple~apple~<br />
+				<textarea rows="20" cols="25"></textarea>
+				<input type="submit" value="submit" />
+		</form>
+	</div>
+	<p>copyright:clio&copy;</p>
+</body>
+</html>
