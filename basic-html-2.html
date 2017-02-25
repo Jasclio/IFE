@@ -2,7 +2,7 @@
 <head>
 <meta content="text/html" charset="UTF-8" />
 <style type="text/css">
-	html{
+	wrap{
 		background-color: #666;
 	}
 	div{
@@ -23,12 +23,12 @@
 		background-color:#999;
 	}
 	.tables{
-		display:table;
-		margin:0 auto;
+		margin-left:40%;
 	}
 </style>
 </head>
 <body>
+	<wrap>
 	<div>
 		<h1>This is a title.</h1>
 		<ul>
@@ -68,15 +68,12 @@
 			</tr>
 		</table>
 	</div>
-	<br /><br />
 	<div>
 		<form method="post" name="tables">
 			<label for="username">username is:</label>
 			<input type="text" name="username" />
 			<label for="password">password:</label>
 			<input type="password" name="password" />
-		</form>
-		<form name="tables">
 			<label>city</label>
 			<select>
 				<option value="beijing">beijing</option>
@@ -96,5 +93,6 @@
 		</form>
 	</div>
 	<p>copyright:clio&copy;</p>
+	</wrap>
 </body>
 </html>
