@@ -2,18 +2,22 @@
 <head>
 <meta content="text/html" charset="UTF-8" />
 <style type="text/css">
-	body{
-		backgound-color: #999;
+	*{
+		margin: 0;
+		padding: 0;
 	}
 	div{
 		border-style: 1px #ccc solid;
-		box-shadow: 2px 2px 2px #333;
+		box-shadow: 2px 5px 5px #333;
 	}
 	h2, .author{
 		color: #666;
 	}
-	img{
-		border-style: 1px #999 dotted;
+	#img1{
+		margin-left:20px;
+	}
+	#img2{
+		border-style: 1px #666 solid;
 	}
 	th{
 		background-color:#222;
@@ -22,16 +26,31 @@
 	#sum{
 		background-color:#999;
 	}
-	.tables{
-		display:table;
-		margin:0 auto;
+	#top1{
+		background-color:#333;
+		color:#FFF;
+	}
+	.a1{
+		float:right;
+		}
+	#tables{
+		text-align:center;
+	}
+	a:hover{
+		color:#3F0;
 	}
 </style>
 </head>
 <body>
+	<div id="top1">
+		<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=205441424,1768829584&fm=116&gp=0.jpg" id="img1" />
+		<ul>
+			<li style="display:inline"><a href="#table1" class="a1">链接1</a></li>
+			<li style="display:inline"><a href="#table2" class="a1">链接2</a></li>
+	</div>
 	<div>
 		<h1>This is a title.</h1>
-		<ul>
+		<ul style="list-style:none">
 			<li><a href="http://www.baidu.com" targrt="_blank">baidu.com</a></li>
 			<li><a href="http://www.163.com">163.com</a></li>
 		</ul>
@@ -40,7 +59,7 @@
 		<p>this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.<br />this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.<a href="http://www.baidu.com">baidu.com</a>.<em>we are the champion my friends~</em><strong>this is a very very long paragaph.</strong>this is a very very long paragaph.this is a very very long paragaph.this is a very very long paragaph.</p>
 	</div>
 	<div>
-		<img src="http://wx1.sinaimg.cn/mw690/67ba1d45ly1fd2r1hf1l0j20m80m87ex.jpg" alt="a picture" />
+		<img src="http://wx1.sinaimg.cn/mw690/67ba1d45ly1fd2r1hf1l0j20m80m87ex.jpg" alt="a picture" id="img2" />
 		<ol>
 			<li>no.1</li>
 			<li>no.2</li>
@@ -68,14 +87,14 @@
 			</tr>
 		</table>
 	</div>
-	<div>
-		<form method="post" name="tables">
+	<div id="tables">
+		<form method="post" name="table1">
 			<label for="username">username is:</label>
 			<input type="text" name="username" />
 			<label for="password">password:</label>
 			<input type="password" name="password" />
 		</form>
-		<form name="tables">
+		<form name="table2">
 			<label>city</label>
 			<select>
 				<option value="beijing">beijing</option>
