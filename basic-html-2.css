@@ -1,0 +1,115 @@
+<!--初始化-->
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei";
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	color: #00FFFF;
+	text-decoration: none;
+}
+
+a:hover{
+	color:#FF0000;
+	text-decoration: underline;
+}
+
+img{
+	vertical-align: middle;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+<!--顶栏-->
+#topBar{
+	background-color: #666666;
+	color: #FFFFFF;
+}
+
+#topBar>img{
+	float: left;
+}
+
+#topBar>ul>li{
+	float: right;
+}
+
+#topBar>a{
+	text-align: center;
+}
+
+<!--网页主体-->
+#wrap{
+	background-color: #CCCCCC;
+}
+
+#wrap>div{
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px #666666;
+}
+
+#wrap>h2,.author{
+	color: #999999;
+}
+
+<!--文章-->
+#paragaph{
+	text-indent: 2em;
+}
+
+<!--图片-->
+#picture>img{
+	width: 100px;
+	height: 100px;
+}
+
+#picture>ul>li{
+	text-align: center;
+	border: 1px solid #cccccc;
+	width: 80px;
+	height: 80px;
+}
+
+#picture>ul>li>img{
+	width: 50px;
+	height: 50px;
+}
+
+<!--表格-->
+#tableShow>table{
+	border: 1px solid #999999;
+}
+
+#tableShow>table>thead{
+	background-color: #333333;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#tableShow>table>tfoot{
+	background-color: #999999;
+	font-weight: bold;
+}
+
+#formShow>form{
+	text-align: center;
+}
+
+.table1>p{
+	color: #999999;
+}
+
+#submit{
+	text-align: center;
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #0000FF;
+}
