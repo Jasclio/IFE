@@ -20,11 +20,14 @@ img{
 	height: 400px;
 	padding: 20px;
 	margin: 20px 20px 20px;
+	position: relative;
 }
 
 #left{
 	width: 200px;
 	height: 120px;
+	position: absolute;
+	left: 20px;
 }
 
 #left>p{
@@ -34,4 +37,10 @@ img{
 #right{
 	height: 360px;
 	width: 120px;
+	position: absolute;
+	right: 20px;
+}
+
+#middle{
+	margin:20px 160px auto 250px;
 }
