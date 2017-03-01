@@ -8,16 +8,21 @@ div{
 	background-color: #FFF;
 }
 
+p{
+	background-color: transparent;
+}
+
 img{
 	border: solid 1px #999;
 	width: 80px;
 	height: 80px;
 	padding: 20px 20px 20px;
+	background-color: transparent;
 }
 
 #wrap{
 	background-color: #eee;
-	height: 400px;
+	height: 500px;
 	padding: 20px;
 	margin: 20px 20px 20px;
 	position: relative;
@@ -30,17 +35,29 @@ img{
 	left: 20px;
 }
 
+#left>img{
+	position: absolute;
+	border: 0;
+}
+
 #left>p{
-	float: right;
+	position: absolute;
+	left:120px;
 }
 
 #right{
-	height: 360px;
+	height: 500px;
 	width: 120px;
 	position: absolute;
 	right: 20px;
+	border: 0px;
 }
 
 #middle{
-	margin:20px 160px auto 250px;
+	margin:0px 140px auto 230px;
+	padding: 0 20px;
+}
+
+#middle>p{
+	text-indent: 2em;
 }
